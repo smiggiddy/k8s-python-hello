@@ -10,7 +10,7 @@ def create_app():
     def home():
         stats = socket.gethostname()
 
-        return f'Hello from the {stats}'
+        return f'Hello World!, from the {stats} container.'
 
     return app 
 
